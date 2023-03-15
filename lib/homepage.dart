@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-                "Instructions to use:\nThere are two users 1 and 2\nRun get-tasks to learn which user is performing what tasks\nadd task for a single user\ndelete a task independent of the user\nupdate a task-user relationship"),
+                "Instructions to use:\nThere are two users 1 and 2\nRun get-tasks - fetches tasks of the user\nadd task - userId as input\ndelete task - taskId as input\nupdate task- userId and taskId as input"),
             Row(
               children: [
                 Container(
